@@ -53,7 +53,8 @@ module.exports = function(grunt) {
     jshint: {
       all: ['lib/**/*.js', 'test/**/*.js'],
       options: {
-        jshintrc: '.jshintrc'
+        jshintrc: '.jshintrc',
+        reporterOutput: ''
       }
     }
   });

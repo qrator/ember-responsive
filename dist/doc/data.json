@@ -2,7 +2,7 @@
     "project": {
         "name": "ember-responsive",
         "description": "Easy responsive layouts with Ember",
-        "version": "0.2.13",
+        "version": "0.2.14",
         "url": "https://freshbooks.github.io/ember-responsive/"
     },
     "files": {
@@ -142,10 +142,6 @@
             "itemtype": "method",
             "name": "initialize",
             "params": [
-                {
-                    "name": "Ember.Container",
-                    "description": "container"
-                },
                 {
                     "name": "Ember.Application",
                     "description": "app"
